@@ -23,8 +23,6 @@ public class Main {
         } catch (IOException | InterruptedException ex) {
         }
     }
-    public static int cnt = 0;
-    //public static Admin admin = new Admin();
     public static void main(String[] args) {
         ArrayList<Product> products = new ArrayList<>();
         Admin admin = new Admin();
