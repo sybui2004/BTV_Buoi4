@@ -73,7 +73,6 @@ public class Admin extends Customer{
                     //clearScreen();
                     InsertProduct iP = new InsertProduct();
                     iP.insertProduct(products);
-                    Main.cnt++;
                     //clearScreen();
                 }
                 case 2 -> {
